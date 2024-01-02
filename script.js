@@ -5,9 +5,9 @@ const output = document.querySelector("#output");
 text.value = "Test - 1"
 async function delayFn(){
 	let value = await parseInt(delay.value)*1000;
-	text.value = "Test - 2"
 	setTimeout(function name() {
 		output.innerHTML = `<h1>${text.value}</h1>`;
+		text.value = "Test - 2"
 	},value);
 }
 
