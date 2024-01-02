@@ -1,11 +1,10 @@
 //your JS code here. If required.
 
 // Get the required elements from the DOM
-onst delayInput = document.getElementById('delay');
+const delayInput = document.getElementById('delay');
 const submitButton = document.getElementById('btn');
 const outputDiv = document.getElementById('output');
 const textInput = document.getElementById('text');
-c
 // Define the async function
 async function showMessageWithDelay() {
   // Get the text and delay values from the user inputs
