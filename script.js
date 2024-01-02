@@ -1,11 +1,11 @@
 const text = document.querySelector("#text");
 const delay = document.querySelector("#delay");
-const body = document.querySelector("body");
+const output = document.querySelector("#output");
 
 async function delayFn(){
 	let value = await parseInt(delay.value)*1000;
 	setTimeout(function name() {
-		body.innerHTML = `<h1>${text.value}</h1>`;
+		output.innerHTML = `<h1>${text.value}</h1>`;
 	},value);
 }
 
